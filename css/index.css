@@ -176,7 +176,8 @@ input::-webkit-inner-spin-button {
 }
 
 #call-to-action .right img {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 /* #stats */

@@ -328,6 +328,10 @@
     order: -1;
   }
 
+  #call-to-action .right img {
+    width: 100%;
+  }
+
   #call-to-action .left h1 {
     text-align: center;
     width: 100%;
