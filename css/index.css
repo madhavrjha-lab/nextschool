@@ -318,6 +318,42 @@ input::-webkit-inner-spin-button {
   border-radius: 10px;
 }
 
+/* #our-clients */
+#our-clients {
+  width: 100%;
+  background-color: #dcf4ff85;
+  padding: 2rem 0;
+}
+
+#our-clients h1 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#our-clients .wrapper {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+#our-clients .box {
+  text-align: center;
+}
+
+#our-clients .wrapper img {
+  height: 130px;
+}
+
+#our-clients .wrapper h5 {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #222744;
+  font-weight: 600;
+}
+
 /* #video-showcase */
 
 #video-showcase {

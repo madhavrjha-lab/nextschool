@@ -15,7 +15,7 @@ class UI {
           logoImg.setAttribute('src', './images/logo-dark.png')
         }
       }
-    })
+    });
   }
 
   static addWhiteBGHeaderOnMobile() {

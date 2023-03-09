@@ -198,8 +198,6 @@
 
 /* Request Demo */
 
-@media (max-width: 1200px) {
-}
 @media (max-width: 992px) {
   #request-demo h1 {
     font-size: 1.7rem;
@@ -237,21 +235,52 @@
   }
 
   #request-demo .wrapper {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     padding: 1rem 0;
+  }
+
+  #request-demo .wrapper img {
+    display: block;
+    margin: 0 auto 1rem;
   }
 
   #request-demo .wrapper h2 {
     font-size: 1rem;
+    text-align: center;
   }
 
   #request-demo .wrapper p {
     width: 95%;
+    margin: auto;
+    text-align: center;
   }
 
   #request-demo a.request-demo {
     padding: 8px 15px;
     font-size: 0.9rem;
+  }
+}
+
+/* Our Clients */
+
+@media (max-width: 768px) {
+  #our-clients h1 {
+    font-size: 1.5rem;
+  }
+
+  #our-clients .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #our-clients h1 {
+    font-size: 1.3rem;
+  }
+
+  #our-clients .box img {
+    height: 80px;
   }
 }
 
