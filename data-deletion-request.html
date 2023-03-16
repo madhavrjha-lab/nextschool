@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Deletion Request | NextSchool - A School Digital Platform</title>
+
+  <!-- Google Fonts [Inter] -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index.responsive.css">
+
+</head>
+
+<body>
+
+  <header id="main-header" class="">
+    <div class="container">
+      <div class="logo">
+        <img src="./images/logo.png" alt="" height="50px">
+      </div>
+      <nav class="menu">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./features.html">Features</a></li>
+          <li><a href="./about-us.html">About us</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-bars"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <section id="deletion-request">
+    <div class="container">
+      <div class="wrapper">
+        <form action="">
+          <h2 class="title">Data Deletion Request</h2>
+          <div class="box">
+            <label for="schoolName">School Name</label>
+            <input type="text" name="schoolName" id="schoolName" placeholder="Enter School Name" required>
+          </div>
+          <div class="box">
+            <label for="role">Role</label>
+            <select name="role" id="role" required>
+              <option selected disabled>Select Role</option>
+              <option value="parent-or-student">Parent/Student</option>
+              <option value="school-staff">School Staff</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="box">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+          </div>
+          <div class="box">
+            <label for="phone">Phone <span>(optional)</span></label>
+            <input type="number" name="phone" id="phone" placeholder="Enter Your Phone Number">
+          </div>
+          <div class="box">
+            <label for="email">Email <span>(optional)</span></label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+          </div>
+          <div class="box">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required placeholder="Select Date of Birth">
+          </div>
+          <div class="box">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <img src="./images/logo.png" alt="">
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="./features.html">Features</a></li>
+          <li><a href="./about-us.html">About us</a></li>
+          <li><a href="./contact-us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="footer-bg"></div>
+
+  <footer id="copyright">
+    <div class="container">
+      <p>&copy; 2020-2023. NextNow Group (Pty) Ltd - Reg No: 2020 /630136 /07 - All Rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script/main.js"></script>
+
+</body>
+
+</html>

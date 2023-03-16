@@ -947,3 +947,78 @@ input::-webkit-inner-spin-button {
 #policy p {
   line-height: 2;
 }
+
+/* 
+  ===================================================================================================
+  Data Deletion Request
+*/
+
+#deletion-request {
+  padding: 100px 0 20px;
+}
+
+#deletion-request h2.title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#deletion-request .wrapper {
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  max-width: 500px;
+  box-shadow: rgba(49, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+}
+
+#deletion-request .wrapper .box {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#deletion-request .wrapper .box :is(input, select) {
+  height: 35px;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border: none;
+  border: 1px solid #999;
+  outline: none;
+}
+
+#deletion-request .wrapper .box :is(input:focus, select:focus) {
+  outline: 1px solid #4e88ff;
+}
+
+#deletion-request .wrapper .box input::placeholder {
+  color: #aaa;
+}
+
+#deletion-request .wrapper .box label {
+  font-size: 0.9rem;
+  color: #222744;
+}
+
+#deletion-request .wrapper .box label span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+#deletion-request .wrapper .box:last-child {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#deletion-request .wrapper .box:last-child button {
+  padding: 7px 20px;
+  font-size: 0.9rem;
+  background-color: #4e88ff;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
