@@ -341,10 +341,11 @@ input::-webkit-inner-spin-button {
 
 #our-clients .box {
   text-align: center;
+  padding: 20px 0;
 }
 
 #our-clients .wrapper img {
-  height: 130px;
+  height: 50px;
 }
 
 #our-clients .wrapper h5 {
@@ -352,6 +353,7 @@ input::-webkit-inner-spin-button {
   font-size: 0.9rem;
   color: #222744;
   font-weight: 600;
+  display: none;
 }
 
 /* #video-showcase */
