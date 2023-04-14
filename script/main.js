@@ -58,10 +58,27 @@ class UI {
     const digitalDivideImage = document.querySelector('#why-nextschool img');
     digitalDivideImage.setAttribute('src', './images/school-ecosystem-mobile.png');
   }
+}
 
+class Helper {
+  static initializaTawktoAPI() {
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/62f60c1b37898912e96292f7/1ga8hujmc";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  }
 }
 
 function main() {
+  Helper.initializaTawktoAPI();
+
   UI.handleHeader();
   UI.mobileHeaderShowAndHide();
   UI.changeImageOnMobile();
